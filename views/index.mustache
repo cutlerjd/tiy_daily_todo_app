@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>ToDo List app</title>
   <link rel="stylesheet" href="css/main.css" />
 </head>
+
 <body>
-  <h1>Hello, Welcome to {{appType}}!</h1>
+  <h1>ToDo List!</h1>
+  <form action="">
+    {{#todos}}
+    <input type="checkbox" name="todo" value="{{todoid}}" {{#status}}checked{{/status}}>{{task}}<br>
+    {{/todos}}
+  </form>
 </body>
+
 </html>
