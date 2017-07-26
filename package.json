@@ -1,0 +1,25 @@
+{
+  "name": "daily-todo-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "busboy": "^0.2.14",
+    "express": "^4.15.3",
+    "mustache-express": "^1.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "boilerplate": {
+    "name": "express-skeleton",
+    "version": "1.0.0",
+    "author": "Michael Sweeney <jfmike@gmail.com> (https://github.com/overthemike)",
+    "license": "MIT"
+  },
+  "description": ""
+}
