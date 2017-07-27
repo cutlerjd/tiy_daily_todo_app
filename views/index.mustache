@@ -14,10 +14,8 @@
     {{#todos}}
     <input type="checkbox" name="todo" value="{{todoid}}" {{#status}}checked{{/status}}>{{task}}<br>
     {{/todos}}
-  </form>
-  <form action="/new" method="POST">
     <input type="text" name="newtodo" placeholder="New ToDo">
-    <button type="submit" name="submit">Submit</button>
+    <button type="submit" name="submit">Update</button>
   </form>
 </body>
 
